@@ -1,0 +1,25 @@
+# Excel files
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+
+# CSV files
+*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
