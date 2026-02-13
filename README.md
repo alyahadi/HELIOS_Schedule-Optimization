@@ -9,7 +9,7 @@ A FastAPI application that predicts maintenance task duration based on pre-compu
 
 ### Task Classification
 
-The API accepts free-text task names and classifies them into one of five task types using keyword matching:
+The API accepts free-text task names entered by user and classifies them into one of five task types using keyword matching:
 
 | Keyword | Task Type |
 |---|---|
@@ -36,7 +36,7 @@ GET /predict/Remove engine cowling
 
 ```json
 {
-  "task_name": "Remove engine cowling",
+  "task_name": "HMU Installation",
   "task_type": "Removal / Installation",
   "predicted_days": 3,
   "max_days": 8,
