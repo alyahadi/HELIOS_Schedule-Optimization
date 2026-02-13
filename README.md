@@ -64,11 +64,12 @@ The API will be available at `http://localhost:8000`.
 ## Project Structure
 
 ```
-├── app.py                          # FastAPI application
-├── task_type_predictions.csv       # Pre-computed model predictions
-├── predictive_modeling_tasks.ipynb  # Model training notebook
-├── preprocess_all.ipynb            # Data preprocessing notebook
-├── requirements.txt                # Python dependencies
+├── app.py                              # FastAPI application
+├── Combined_All_Years_With_SumUp.xslx  # Historical dataset from 2013 to 2025
+├── task_type_predictions.csv           # Pre-computed model predictions
+├── predictive_modeling_tasks.ipynb     # Model training notebook
+├── preprocess_all.ipynb                # Data preprocessing notebook
+├── requirements.txt                    # Python dependencies
 ├── Dockerfile
 ├── docker-compose.yml
 └── .dockerignore
