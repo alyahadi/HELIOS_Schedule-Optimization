@@ -1,12 +1,3 @@
-# Excel files
-*.xlsx
-*.xls
-*.xlsm
-*.xlsb
-
-# CSV files
-*.csv
-
 # Python cache
 __pycache__/
 *.py[cod]
