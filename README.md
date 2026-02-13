@@ -1,4 +1,4 @@
-# HELIOS Task Duration Predictor
+# HELIOS Task Duration Estimation
 
 A FastAPI application that predicts maintenance task duration based on pre-computed machine learning model results.
 
